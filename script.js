@@ -56,21 +56,21 @@ function openTab(tabId) {
 // Initial Mock Data utilizing the new array structures
 let experienceData = [
     {
-        title: "Senior Full Stack Engineer",
-        company: "Tech Solutions Inc.",
-        skills: ["JavaScript", "React", "Node.js"],
-        texts: ["Architected a microservices backend.", "Designed an award winning user interface."],
-        images: ["https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&q=80"],
+        title: "Bachelor's Degree in Computer Science",
+        company: "University of Northwestern",
+        skills: ["HTML5", "Vanilla JS", "CSS", "SQL", "MongoDB", "Python", "Java", "C/C++"],
+        texts: ["Achieved my degree in Computer Science at the Univeristy of Northwestern St. Paul"],
+        images: [],
         videos: []
     },
     {
-        title: "Freelance Web Developer",
-        company: "Yield Freelance",
+        title: "Systems Analyst",
+        company: "Yield Systems Analysis and Design",
         skills: ["HTML5", "Vanilla JS", "CSS"],
-        texts: ["Built custom landing pages completely from scratch using Monokai aesthetics.", "Handled client interactions and continuous delivery."],
-        images: ["https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&q=80", "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80"],
+        texts: ["Translated business needs to software architecture plans", "Built custom client analytics software to fit hyper-specific business needs", "Custom Software saves an estimated 32 hours of work per quarter"],
+        images: ["/analytics.png"],
         videos: []
-    }
+    },
 ];
 
 // Function to render experience modules dynamically based on arrays
